@@ -3,11 +3,11 @@
 
 *{
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 600;
 }
 
 .link-barrinha-1{
   color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 
 .link-barrinha-1:hover{
@@ -21,7 +21,7 @@
 }
 
 .banner{
-  background: url('../img/premium_photo-1676074205853-c05eacc79417.avif');
+  background: url('../img/bannercookies.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,8 +30,13 @@
 
 .botao{
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 209, 28);
+  background-color: rgb(220, 1, 228);
 }
+
+.imagenscard{
+  border-radius: 10px;
+}
+
 
 .perfil-main{
   height: 75vh;
@@ -59,6 +64,31 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(32, 32, 32, 0.19);
 }
 
+.main-parte-2{
+  margin-top: 10vh;
+}
+
+.titulo-main-parte-2{
+  margin-left: 5%;
+  font-weight: 600;
+}
+
+.imagens-parte-2{
+  border-radius: 1rem;
+}
+
+.barra-de-pesquisa{
+  margin-left: 20%;
+}
+.end-main{
+  margin-top: 30vh;
+  background-color: rgb(49, 28, 0);
+  color: rgb(255, 255, 255);
+}
+
+.end-main-text{
+  margin-left: 20%;
+}
 .titulos{
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
@@ -70,9 +100,6 @@
     border-radius: 2rem 0px 0px 2rem;
 }
 
-.the-end{
-    min-height: 20vh;
-}
 
 @media (min-width: 400px) and (max-width: 576px){ 
   .banner{
