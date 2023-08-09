@@ -84,7 +84,9 @@
   margin-top: 10vh;
   background-color: rgb(49, 28, 0);
   color: rgb(255, 255, 255);
-  min-height: 40vh;
+  min-height: 30vh;
+  font-size: 80%;
+  text-align: justify;
 }
 
 .end-main-text{
